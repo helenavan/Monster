@@ -1,28 +1,17 @@
 package fr.wildcodeschool.apprenti.monster;
 
-import android.app.Activity;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
-import android.view.ViewGroup;
 import android.widget.AdapterView;
-import android.widget.ArrayAdapter;
 import android.widget.AdapterView.OnItemClickListener;
-import android.widget.Button;
-import android.widget.ImageView;
-import android.widget.ListAdapter;
 import android.widget.ListView;
-import android.widget.Spinner;
-import android.widget.TextView;
-import android.widget.Toast;
 
 
-import java.util.ArrayList;
-import java.util.List;
+public class HomeActivity extends AppCompatActivity {
 
-
-public class MainActivity extends AppCompatActivity {
+    public String MONSTRE =  "fr.wildcodeschool.apprenti.monster.MONSTRE";
 
    ListView listView;
     String[] itemname = {
@@ -64,7 +53,7 @@ public class MainActivity extends AppCompatActivity {
         CustomListAdapter adapt = new CustomListAdapter(this, itemname);
 
         adapt.setAdapter(adapter);*/
-        CustomListAdapter adapter = new CustomListAdapter(this, itemname, imageId);
+        CustomAdapter adapter = new CustomListAdapter(this, itemname, imageId);
         ListView list = (ListView) findViewById(R.id.list);
         list.setAdapter(adapter);
 
@@ -78,7 +67,9 @@ public class MainActivity extends AppCompatActivity {
                         getApplicationContext(),
                         "Bonjour " + "Le Monstre " + itemValue, Toast.LENGTH_LONG).show();*/
 //lien clicable qui renvois sur une page
-                Intent intent = new Intent(MainActivity.this, DetailsActivity.class);
+                Intent intent = new Intent(HomeActivity.this, DetailsActivity.class);
+               Bundle mBundle = new Bundle();
+               mBundle.putSerializable(MONSTRE,listMonstres.get(position));
                 startActivity(intent);
 
 

@@ -16,14 +16,14 @@ import android.widget.TextView;
 /**
  * Created by apprenti on 09/09/16.
  */
-public class CustomListAdapter extends ArrayAdapter<String> {
+public class CustomAdapter extends ArrayAdapter<String> {
 
 
     private final Activity context;
     private final String[] itemname;
     private final Integer[] imageId;
 
-    public CustomListAdapter(Activity context, String[] itemname, Integer[] imageId) {
+    public CustomAdapter(Activity context, String[] itemname, Integer[] imageId) {
         super(context, R.layout.mylist, itemname);
         this.context = context;
         this.itemname = itemname;

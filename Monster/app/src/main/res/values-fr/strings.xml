@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Monster fr</string>
+    <string name="feu" ></string>
+    <string name="magie" ></string>
+    <string name="lumière" ></string>
+    <string name="eau" ></string>
+    <string name="métal" ></string>
+    <string name="nature" ></string>
+    <string name="terre" ></string>
+    <string name="tonerre" ></string>
+    <string name="ombre" ></string>
+</resources>
