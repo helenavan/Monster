@@ -1,0 +1,7 @@
+#Thu Oct 06 17:42:19 CEST 2016
+base.0=/home/apprenti/AndroidStudioProjects/Gold_Hunter/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_c7b3d25147db9c4e5da5ee430bc24dc78200ba6a
+renamed.1=classes.dex
+renamed.0=classes2.dex
+file.1=/home/apprenti/AndroidStudioProjects/Gold_Hunter/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_f0df965717f6e184eb2f241f49e64206f21ad5c5/classes.dex
+base.1=/home/apprenti/AndroidStudioProjects/Gold_Hunter/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_f0df965717f6e184eb2f241f49e64206f21ad5c5
+file.0=/home/apprenti/AndroidStudioProjects/Gold_Hunter/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_c7b3d25147db9c4e5da5ee430bc24dc78200ba6a/classes.dex
